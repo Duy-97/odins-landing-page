@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  list-style: none;
+  padding: 0;
+  margin: 0em 0em 0.5em 0em;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.white {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 1em;
+  background-color: #3ba7ff;
+  border: none;
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3189d1;
+}
+
+.button-text {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-header,
+.section {
+  background-color: #1F2937;
+  min-height: 50px;
+}
+
+.logo {
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1020px;
+  margin-inline: auto;
+  min-height: inherit;
+}
+
+.nav-link-list {
+  display: flex;
+  gap: 2em;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #3ba7ff;
+}
+
+.section-1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+  max-width: 1020px;
+  background-color: #1F2937;
+  margin-inline: auto;
+  padding: 5em 0em;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: 60ch;
+}
+
+.column-right {
+  margin-left: auto;
+  width: 80%;
+
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.section-2-container {
+  margin-inline: auto;
+  background-color: #ffffff;
+  max-width: 1020px;
+  text-align: center;
+  padding: 5em 0em;
+}
+
+.cards-wrapper {
+  display: flex;
+  margin-top: 2em;
+  gap: 1em;
+}
+
+.cards {
+  max-width: 80%;
+  margin-inline: auto;
+}
+
+.cards p {
+  margin-top: 1em;
+}
+
+.section-3-container {
+  background-color: #1F2937;
+  min-height: 400px;
+  max-width: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.quote-wrapper {
+  max-width: 70%;
+}
+
+.quote {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: white;
+}
+
+strong {
+  color: white;
+}
+
+.section-4-container {
+  margin-inline: auto;
+  background-color: #ffffff;
+  max-width: 1020px;
+  padding: 5em 0em;
+}
+
+.cta-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+  padding: 2em;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+footer {
+  padding: 1em 0em 1em;
+  background: #1F2937;
+  text-align: center;
+}
